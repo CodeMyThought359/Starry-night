@@ -91,7 +91,7 @@ export default function RootLayout({ children }) {
    "
         />
         {/* Website Schema */}
-     <Script 
+        <Script
           id="website-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -144,7 +144,7 @@ export default function RootLayout({ children }) {
         />
 
         {/* Breadcrumb Schema */}
-        <Script 
+        <Script
           id="breadcrumb-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -194,7 +194,7 @@ export default function RootLayout({ children }) {
         />
 
         {/* Resort Schema */}
-        <Script 
+        <Script
           id="resort-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -254,7 +254,7 @@ export default function RootLayout({ children }) {
         />
 
         {/* FAQ Schema */}
-        <Script   
+        <Script
           id="faq-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -271,7 +271,7 @@ export default function RootLayout({ children }) {
                     text: "The Starry Nights Resort is just 28 km from Bangalore...",
                   },
                 },
-              
+
               ],
             }),
           }}
@@ -322,15 +322,15 @@ export default function RootLayout({ children }) {
         {/* <!-- Google Tag Manager (noscript) --> */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-MKJJ3TBF"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TV6Q6ZLH"
             height="0"
             width="0"
-            style={{display:'none', visibility:"hidden"}}
+            style={{ display: 'none', visibility: "hidden" }}
           ></iframe>
         </noscript>
         {/* <!-- End Google Tag Manager (noscript) --> */}
-        <GoogleTagManager gtmId="GTM-MKJJ3TBF" />
- <EnquireNow/>
+        <GoogleTagManager gtmId="GTM-TV6Q6ZLH" />
+        <EnquireNow />
         <QuickWhatsapp />
         <QuickCall />
         <ScrollTop />

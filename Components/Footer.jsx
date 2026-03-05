@@ -5,13 +5,15 @@ import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa6";
 function Footer() {
   return (
     <footer className=" mt-10 pt-10">
-
       <div className="bg-white p-4">
         <div className="text-center lg:w-10/12 mx-auto   lg:text-start lg:flex items-center lg:justify-between">
           <div className="lg:w-7/12">
             <h2 className="font-medium text-2xl"> Approved By</h2>
             <p className="text-lg xl:text-[20px]">
-              The Starry Nights Resort – An Approved Karnataka Tourism destination, offering a perfect escape into nature with luxury and adventure. Experience the best resort near Bangalore for a magical and memorable stay!
+              The Starry Nights Resort – An Approved Karnataka Tourism
+              destination, offering a perfect escape into nature with luxury and
+              adventure. Experience the best resort near Bangalore for a magical
+              and memorable stay!
             </p>
           </div>
           <div>
@@ -21,7 +23,8 @@ function Footer() {
               className="w-[140px] lg:w-[200px] xl:w-[230px] ml-auto mx-auto"
             />
           </div>
-        </div></div>
+        </div>
+      </div>
       {/* <div className="flex bg-white  w-[90%] lg:w-[85%] rounded-t-xl shdow  mx-auto px-5 py-5 md:py-1 lg:py-2  items-center justify-between">
         <div className="text-sm lg:text-xl font-medium basis-4/5  lg:basis-2/5 ">
           Properties Hosted By Vivacious Destinations{" "}
@@ -58,7 +61,6 @@ function Footer() {
       </div> */}
       <div className=" bg-blue_c">
         <div className="block w-11/12 lg:w-10/12  mx-auto font-light pt-8   text-white">
-
           <div
             className=" lg:flex justify-between 
          mx-auto  md:text-start md:text-sm lg:text-[15px] 	"
@@ -82,9 +84,8 @@ function Footer() {
               </div>
 
               <p>
-                Welcome to The Starry Nights Located just 28 km from Bangalore,
-                off Magadi Road or Tumkur Road, with close proximity to
-                Tavarekere, Nelamangala, and Peenya Industrial Area.
+                Welcome to The Starry Nights Located just 25 km from Bangalore,
+                on Kanakapura Road, Bengaluru.
               </p>
               <h1 className="font-medium text-xl md:text-lg pt-3 md:pt-4">
                 {" "}
@@ -93,18 +94,38 @@ function Footer() {
               <div className="w-[40px] md:text-sm lg:text-[15px]  md:w-[3vw]  md:mx-0 mb-3 bg-gold_c h-[2px] "></div>
               <div className="capitalize ">
                 <h2 className="pt-1  hover:text-blue-400  ">
-
-                  <Link href={'/day-outing-resorts-in-bangalore'}> day outing resorts bangalore </Link>
+                  <Link href={"/day-outing-resorts-in-bangalore"}>
+                    {" "}
+                    day outing resorts bangalore{" "}
+                  </Link>
                 </h2>
                 <h2 className="pt-1  hover:text-blue-400  ">
-                  <Link href="/best-resorts-in-nelamangala">  night stay resorts in bangalore</Link>
+                  <Link href="/best-resorts-in-nelamangala">
+                    {" "}
+                    night stay resorts in bangalore
+                  </Link>
                 </h2>
 
-                <h2 className="pt-1  hover:text-blue-400  "> 
-                <Link href={'/day-outing-resorts-in-bangalore'}>  resorts close to bangalore </Link>
-                  </h2>
-                <h2 className="pt-1  hover:text-blue-400  ">  <Link href="/best-resorts-in-nelamangala">  resorts in bangalore</Link></h2>
-                <h2 className="pt-1  hover:text-blue-400  "> <Link href="/resorts-with-activities-in-bangalore"> resort with activities in bangalore</Link> </h2>
+                <h2 className="pt-1  hover:text-blue-400  ">
+                  <Link href={"/day-outing-resorts-in-bangalore"}>
+                    {" "}
+                    resorts close to bangalore{" "}
+                  </Link>
+                </h2>
+                <h2 className="pt-1  hover:text-blue-400  ">
+                  {" "}
+                  <Link href="/best-resorts-in-nelamangala">
+                    {" "}
+                    resorts in bangalore
+                  </Link>
+                </h2>
+                <h2 className="pt-1  hover:text-blue-400  ">
+                  {" "}
+                  <Link href="/resorts-with-activities-in-bangalore">
+                    {" "}
+                    resort with activities in bangalore
+                  </Link>{" "}
+                </h2>
               </div>
             </div>
 
@@ -138,9 +159,9 @@ function Footer() {
               <p>
                 {" "}
                 <span className="font-medium"> Address : </span>
-                <a href="https://maps.app.goo.gl/hN8AuMZbfMe99Hfi8">
-                  Ravuthanahalli, kithanahalli post Dasanapura Hobli, Bangalore
-                  North, Bangalore 562130{" "}
+                <a href="#">
+                  Sy no 169 Nettigere, Bolare Post Kanakapura Main Road
+                  Bangalore South, Bangalore, 560116{" "}
                 </a>{" "}
               </p>
 
@@ -205,7 +226,10 @@ function Footer() {
               <div className="  font-normal  ">
                 <h1 className=" hover:text-blue-400  w-max  md:mx-0">
                   {" "}
-                  <Link href="/cancellation-reschedules-refunds-policy"> Cancellation & Refunds </Link>
+                  <Link href="/cancellation-reschedules-refunds-policy">
+                    {" "}
+                    Cancellation & Refunds{" "}
+                  </Link>
                 </h1>{" "}
                 <h1 className="pt-1  hover:text-blue-400 w-max md:mx-0">
                   {" "}
@@ -222,9 +246,9 @@ function Footer() {
 
         <div className="flex items-end mt-4 md:mt-[-170px] xl:mt-[-200px]">
           <div className=" border-t  md:border-none font-light text-sm lg:w-[77%] lg:ml-[5%] mx-auto md:whitespace-nowrap	 md:mt-5  pt-2 pb-2 ">
-            <p className="w-max ml-auto text-white">
-              Digital Marketing Partner - Vivacious Destinations.
-            </p>
+            {/* <p className="w-max ml-auto text-white">
+              Digital Marketing Partner .
+            </p> */}
             <div className="md:flex  justify-evenly	items-center  text-white  text-center 	 ">
               <div className="w-full hidden md:block h-[1px] bg-[#BBB9D0] opacity-50">
                 {" "}
@@ -232,8 +256,8 @@ function Footer() {
 
               <p className="md:pl-2 text-yellow_c">
                 {" "}
-                ©  {new Date().getFullYear()} The Starry Nights All rights
-                reserved
+                ©  {new Date().getFullYear()} - 2028 The Starry Nights All
+                rights reserved
               </p>
             </div>{" "}
           </div>

@@ -5,11 +5,11 @@ import CompanyIntro from "../Components/CompanyIntro";
 import Highlights from "../Components/Highlights";
 import DayoutIntro from "../Components/DayoutIntro";
 import StayIntro from "../Components/StayIntro";
- import ActivitiesIntro from "../Components/ActivitiesIntro";
- import GalleryIntro from "../Components/GalleryIntro";
- import Faq from "../Components/faq";
- import Events from "../Components/Events";
- import GuestReviews from "../Components/GuestReviews";
+import ActivitiesIntro from "../Components/ActivitiesIntro";
+import GalleryIntro from "../Components/GalleryIntro";
+import Faq from "../Components/faq";
+import Events from "../Components/Events";
+import GuestReviews from "../Components/GuestReviews";
 import Link from "next/link";
 
 const Home = () => {
@@ -18,19 +18,32 @@ const Home = () => {
       img: "/images/banners/banner_lg_1.webp",
       sm_image: "/images/banners/banner_sm_1.webp",
       md_image: "/images/banners/banner_md_1.webp",
-    },{
+    },
+    {
       img: "/images/banners/banner_lg_2.webp",
       sm_image: "/images/banners/banner_sm_2.webp",
       md_image: "/images/banners/banner_md_2.webp",
-    },{
+    },
+    {
       img: "/images/banners/banner_lg_3.webp",
       sm_image: "/images/banners/banner_sm_3.webp",
       md_image: "/images/banners/banner_md_3.webp",
-    },{
+    },
+    {
       img: "/images/banners/banner_lg_4.webp",
       sm_image: "/images/banners/banner_sm_4.webp",
       md_image: "/images/banners/banner_md_4.webp",
-    }
+    },
+    {
+      img: "/images/banners/bn_lg_1.png",
+      md_image: "/images/banners/bn_md_1.png",
+      sm_image: "/images/banners/bn_sm_1.png",
+    },
+    {
+      img: "/images/banners/bn_lg_2.png",
+      md_image: "/images/banners/bn_md_2.png",
+      sm_image: "/images/banners/bn_sm_2.png",
+    },
   ];
   const dayPackage = {
     name: "Morning Star Adventure",
@@ -95,20 +108,19 @@ const Home = () => {
       <StayIntro />
       <ActivitiesIntro />
       <div className="mt-8 relative">
-            <img
-              src="/images/blog_intro.webp"
-              alt="Blog intro"
-              className="min-h-[180px] object-cover"
-            />
-            <button className="text-yellow_c pl-4 md:text-xl font-light  absolute bottom-5  left-0 right-0 w-max mx-auto block cursor-pointer">
-          <Link href="/resorts-at-bangalore" >   Read More</Link> 
-            </button>
-          </div>
+        <img
+          src="/images/blog_intro.webp"
+          alt="Blog intro"
+          className="min-h-[180px] object-cover"
+        />
+        <button className="text-yellow_c pl-4 md:text-xl font-light  absolute bottom-5  left-0 right-0 w-max mx-auto block cursor-pointer">
+          <Link href="/resorts-at-bangalore"> Read More</Link>
+        </button>
+      </div>
       <GalleryIntro />
-{/*      <Events />*/}
+      {/*      <Events />*/}
       <Faq />
-
-      <GuestReviews />  
+      <GuestReviews />
     </div>
   );
 };

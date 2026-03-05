@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useEffect } from "react";
 import BannerSlider from "@/Components/BannerSlider";
 import CommonHeading from "@/Components/ReuseComponent/CommonHeading";
@@ -22,10 +22,8 @@ function Contact(props) {
     },
   ];
 
-  
   return (
     <div>
-
       <BannerSlider images={images} />
 
       <div className="relative">
@@ -73,8 +71,8 @@ function Contact(props) {
                       <h2 className="font-medium text-lg">Address</h2>
                       <h3 className="font-light lg:w-4/5">
                         {" "}
-                        Ravuthanahalli, kithanahalli post Dasanapura Hobli,
-                        Bangalore North,Bangalore 562130{" "}
+                        Sy no 169 Nettigere, Bolare Post Kanakapura Main Road
+                        Bangalore South, Bangalore, 560116{" "}
                       </h3>
                     </div>
                   </div>
@@ -157,7 +155,7 @@ function Contact(props) {
         </div>
         {/* Google Map */}
 
-        <div className="my-7 w-11/12 mx-auto">
+        {/* <div className="my-7 w-11/12 mx-auto">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2211566771107!2d77.42530997410393!3d13.021583913782383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3b593f0b369d%3A0x27708cbbf4a52d2c!2sThe%20Starry%20Nights!5e0!3m2!1sen!2sin!4v1733316338394!5m2!1sen!2sin"
             width="100%"
@@ -166,7 +164,7 @@ function Contact(props) {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
+        </div> */}
 
         <Faq />
       </div>

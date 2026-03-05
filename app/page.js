@@ -15,6 +15,16 @@ import Link from "next/link";
 const Home = () => {
   const images = [
     {
+      img: "/images/banners/bn_lg_1.png",
+      md_image: "/images/banners/bn_md_1.png",
+      sm_image: "/images/banners/bn_sm_1.png",
+    },
+    {
+      img: "/images/banners/bn_lg_2.png",
+      md_image: "/images/banners/bn_md_2.png",
+      sm_image: "/images/banners/bn_sm_2.png",
+    },
+    {
       img: "/images/banners/banner_lg_1.webp",
       sm_image: "/images/banners/banner_sm_1.webp",
       md_image: "/images/banners/banner_md_1.webp",
@@ -33,16 +43,6 @@ const Home = () => {
       img: "/images/banners/banner_lg_4.webp",
       sm_image: "/images/banners/banner_sm_4.webp",
       md_image: "/images/banners/banner_md_4.webp",
-    },
-    {
-      img: "/images/banners/bn_lg_1.png",
-      md_image: "/images/banners/bn_md_1.png",
-      sm_image: "/images/banners/bn_sm_1.png",
-    },
-    {
-      img: "/images/banners/bn_lg_2.png",
-      md_image: "/images/banners/bn_md_2.png",
-      sm_image: "/images/banners/bn_sm_2.png",
     },
   ];
   const dayPackage = {

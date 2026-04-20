@@ -71,8 +71,9 @@ function Contact(props) {
                       <h2 className="font-medium text-lg">Address</h2>
                       <h3 className="font-light lg:w-4/5">
                         {" "}
-                        Sy no 169 Nettigere, Bolare Post Kanakapura Main Road
-                        Bangalore South, Bangalore, 560116{" "}
+                        Sy no 165/6 Nettigere, Bolare Post , Uttarahalli Hobli,
+                        Kanakapura Main Road Bangalore South, Bangalore,
+                        560116{" "}
                       </h3>
                     </div>
                   </div>

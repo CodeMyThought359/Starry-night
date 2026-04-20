@@ -160,8 +160,8 @@ function Footer() {
                 {" "}
                 <span className="font-medium"> Address : </span>
                 <a href="#">
-                  Sy no 169 Nettigere, Bolare Post Kanakapura Main Road
-                  Bangalore South, Bangalore, 560116{" "}
+                  Sy no 165/6 Nettigere, Bolare Post , Uttarahalli Hobli,
+                  Kanakapura Main Road Bangalore South, Bangalore, 560116{" "}
                 </a>{" "}
               </p>
 
